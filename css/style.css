@@ -1,0 +1,12 @@
+body {background-color: rgb(196, 154, 108);}
+.indexheader {background-color: rgb(251, 211, 223);}
+.small {height: 500px; width: 550px;}
+.small {float: center; /* Pushes image to the center */
+    margin-left: 10px; /* Optional spacing from text */
+}
+.page {display: grid;grid-template-columns: 1fr 1fr; justify-content: center;column-gap: 50px;}
+.page1 {display: grid;grid-template-columns: 1fr 1fr; justify-content: center;column-gap: 50px;}
+.page2 {display: grid;grid-template-rows: 1fr 1fr; justify-content: center;column-gap: 50px;}
+.form {display: grid; grid-template-rows:1fr; max-width: 500px;
+  padding:10px;}
+  .footer {background-color: rgb(156, 168, 176);}
